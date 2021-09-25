@@ -1,0 +1,36 @@
+<!-- Button trigger modal -->
+
+
+<!-- Modal -->
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="loginModalLabel">Sign-up Form</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      <form  action="partials/_handellogin.php" method="POST">
+  <div class="form-group">
+    <label for="name">Your Name</label>
+    <input type="text" class="form-control" id="name"name="name" aria-describedby="emailHelp" placeholder="Enter Name">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your detail's with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="number">Phone-number</label>
+    <input type="number" class="form-control" id="number" name="number" placeholder="Number">
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        
+
+      </div>
+    </div>
+  </div>
+</div>
